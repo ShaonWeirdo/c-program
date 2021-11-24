@@ -15,6 +15,28 @@
 
 }
 
+//Conversion Between Decimal and Octal
+
+{
+    int number;
+    printf("Enter a Decimal Number -- ");
+    scanf("%d", &number);
+
+    printf("The Octal Number Is ---- %o", number);
+
+}
+
+//Convert Character Into Ascii Value
+
+{
+    char ch;
+    printf("Enter any Character ");
+    scanf("%c",&ch);
+    printf("The Ascii Value Is %d\n", ch);
+
+    return 0;
+}
+
 
 // Area of Triangle 
 
