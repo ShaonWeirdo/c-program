@@ -1,0 +1,60 @@
+// Hello World !
+
+{
+    printf("Hello World !");
+
+}
+
+//Upper to Lowercase Letter
+
+{
+    char upper;
+    printf("Enter any Uppercase Letter -- ");
+    scanf("%c", &upper);
+    printf("The Lowercase Letter Is --- %c\n", upper+32);
+
+}
+
+
+// Area of Triangle 
+
+ double a, b, c, s, area;
+   printf("Enter 3 Values ---- ");
+   scanf("%lf %lf %lf ", &a,&b,&c);
+
+   s = (a+b+c)/2;
+
+   area = sqrt(s*(s-a)*(s-b)*(s-c));
+   printf("The Area Triangle  ---- %.2lf\n",area);
+
+
+
+// Area of Rectangle
+
+{
+    float length, width, area;
+
+    printf("Enter The Length : ");
+    scanf("%f",&length);
+
+    printf("Enter The Width : ");
+    scanf("%f",&width);
+
+    area = length  * width;
+    printf("Area of Rectangle :%.2f\n",area);
+
+}
+
+
+//Area of Circle
+
+{
+    float radius, area, PI= 3.1416;
+
+    printf("Enter The Radius -- ");
+    scanf("%f",&radius);
+
+    area = PI * radius * radius;
+    printf("The Area of Circle -- %.2f\n",area);
+    
+}
