@@ -104,3 +104,20 @@
     cent = (faren -  32)/1.8;
     printf("The Centigrade --- %.2f\n",cent);
 }
+
+//swap two numbers with temporary variable
+
+{
+    int num1 = 20;
+    int num2 = 30;
+
+    int temp;
+
+    temp = num1;
+    num1 = num2;
+    num2 = temp;
+
+    printf("Number 1 = %d\n",num1);
+    printf("Number 2 = %d\n",num2);
+
+}
