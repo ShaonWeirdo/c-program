@@ -94,3 +94,13 @@
     printf("The Fahrenheit --- %.2f\n",faren);
 }
 
+//Fahrenheit to Centigrade
+
+{
+    float faren, cent;
+    printf("Enter The Fahrenheit --- ");
+    scanf("%f",&faren);
+
+    cent = (faren -  32)/1.8;
+    printf("The Centigrade --- %.2f\n",cent);
+}
