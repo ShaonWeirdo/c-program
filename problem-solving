@@ -83,3 +83,14 @@
 }
 
 
+//Centigrade to Fahrenheit
+
+{
+    float cent, faren;
+    printf("Enter The Centigrade --- ");
+    scanf("%f",&cent);
+
+    faren = (cent * 1.8) + 32 ;
+    printf("The Fahrenheit --- %.2f\n",faren);
+}
+
