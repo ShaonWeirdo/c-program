@@ -5,6 +5,16 @@
 
 }
 
+
+
+//Absolute value
+{
+    int result = abs (-47);
+    printf("THe Absolute value of -47 is --- %d\n",result);
+}
+
+
+
 //Upper to Lowercase Letter
 
 {
