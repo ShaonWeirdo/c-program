@@ -33,6 +33,23 @@
 
 }
 
+
+
+//Checking a Number is Even or Odd By Relational Operator
+
+{
+    int number;
+    printf("Enter a Integer Number -- ");
+    scanf("%d",&number);
+
+    if (number %2==0)
+            printf("The Number Is Even\n");
+    else
+        printf("The Number Is Odd\n");
+}
+
+
+
 //Conversion Between Decimal and Octal
 
 {
@@ -44,6 +61,8 @@
 
 }
 
+
+
 //Convert Character Into Ascii Value
 
 {
@@ -54,6 +73,7 @@
 
     return 0;
 }
+
 
 
 // Area of Triangle 
@@ -68,6 +88,8 @@
    area = sqrt(s*(s-a)*(s-b)*(s-c));
    printf("The Area Triangle  ---- %.2lf\n",area);
 }
+
+
 
 
 // Area of Rectangle
@@ -87,6 +109,8 @@
 }
 
 
+
+
 //Area of Circle
 
 {
@@ -101,6 +125,8 @@
 }
 
 
+
+
 //Centigrade to Fahrenheit
 
 {
@@ -112,6 +138,8 @@
     printf("The Fahrenheit --- %.2f\n",faren);
 }
 
+
+
 //Fahrenheit to Centigrade
 
 {
@@ -122,6 +150,8 @@
     cent = (faren -  32)/1.8;
     printf("The Centigrade --- %.2f\n",cent);
 }
+
+
 
 //swap two numbers with temporary variable
 
@@ -140,6 +170,8 @@
 
 }
 
+
+
 //swap two numbers without temporary
 
 {
@@ -155,6 +187,8 @@
     printf("Number 2 = %d\n",num2);
 
 }
+
+
 
 //X raised to the power Y (x^y)
 
