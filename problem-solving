@@ -225,3 +225,23 @@
         printf("The Numbers Are Equal ");
 
 }
+
+
+//Resolution Of Positive/Negative
+
+{
+    int num;
+
+    printf("Enter Any Number --- ");
+    scanf("%d",&num);
+
+    if(num>0)
+        printf("The Number Is  Positive --- %d\n");
+    else if(num<0)
+        printf("The Number Is Negative --- %d\n");
+    else
+        printf("The Number Is Zero ");
+
+}
+
+
