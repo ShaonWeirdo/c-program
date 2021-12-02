@@ -262,5 +262,20 @@
     else
         printf("The Numbers Are Equal");
 
+}
 
+
+//Leap Year
+
+{
+    int year;
+    printf("Enter Any Year ---  ");
+    scanf("%d",&year);
+
+    if (year %400 == 0)
+        printf("This Is a Leap Year --- %d",year);
+    else if (year %4 == 0 && year %100 != 0 )
+        printf("This Is a Leap Year --- %d",year);
+    else
+        printf("This Is Not a Leap Year");
 }
